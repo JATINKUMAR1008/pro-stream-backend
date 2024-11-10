@@ -39,7 +39,7 @@ const uploadOnS3 = async (file, filename) => {
     fs.unlinkSync(file.path);
 
     console.log('File uploaded successfully:', uploadResult);
-    return `https://d3tpz8spx1fgy0.cloudfront.net/${filename}`;
+    return `https://d32xvyoorsee81.cloudfront.net/${filename}`;
   } catch (err) {
     console.error('Error uploading file to S3:', err);
 
